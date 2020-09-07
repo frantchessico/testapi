@@ -18,7 +18,7 @@ module.exports = {
             email,
             createdAt: Date.now() 
            })
-           return res.json({success: 'Your has been save successfully'})
+           return res.json({success: 'Olá, stá feito.'})
        }).catch(err => {
            return res.json(err)
        })
